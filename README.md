@@ -32,4 +32,4 @@ And you need to require it when you use our script in browser
 
 	Initiate the project and a base function
 
-[demo]:	http://wyubin.github.io/lightbox/index.html	"render html by light box"
+[demo]:	http://wyubin.github.io/lightbox/	"render html by light box"
