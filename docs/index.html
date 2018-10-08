@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./lightbox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<main>
+		<p name="func_des">show light box by function or dom</p>
+		<input name="lb_func" title="show by function" type="button" value="function button">
+		<input name="lb_dom" title="show by dom" type="button" value="dom button">
+		<div id="lightbox"></div>
+	</main>
+	<script src="./lightbox.min.js"></script>
+<script>
+// init lightbox
+lightbox.set_dom(document.querySelector('#lightbox'));
+var doms = {};
+Array.prototype.slice.apply(document.querySelectorAll('[name]')).map(function(v){
+	doms[v.getAttribute('name')]=v;
+});
+// setup buttons
+doms.lb_func.onclick = function(e){
+	lightbox.show((dom)=>{
+		dom.innerHTML = 'Show light by function';
+	});
+}
+doms.lb_dom.onclick = function(e){
+	lightbox.show(doms.func_des);
+}
+</script>
+</body>
+</html>
