@@ -1,0 +1,23 @@
+{
+  "name": "lightbox",
+  "version": "1.0.0",
+  "description": "A simple module including css to show html to upper layer by input DOM or render function.",
+  "main": "lightbox.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyubin/lightbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyubin/lightbox/issues"
+  },
+  "homepage": "https://github.com/wyubin/lightbox#readme"
+}
