@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wyubin/lightbox/issues"
   },
-  "homepage": "https://github.com/wyubin/lightbox#readme"
+  "homepage": "https://github.com/wyubin/lightbox#readme",
+  "dependencies": {
+		"spa_tools": "wyubin/spa_tools"
+  }
 }

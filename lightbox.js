@@ -5,7 +5,7 @@
 * @version 0.0.1
 */
 module.id='lightbox';
-var control_panel=require('../../lib/control_panel.js');
+var control_panel=require('spa_tools/control_panel.js');
 
 // css require
 require('./lightbox.scss');
